@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+}
+
+.icone {
+    /*position: fixed;*/ /* Fixa o ícone na tela */
+    top: 50px; /* Distância do topo da página */
+    left:50px; /* Distância da esquerda da página */
+    z-index:  100; /* Garante que o ícone esteja acima de outros elementos */
+}
+
+body {
+    /*background-color:  #0a192f;*/
+    background-image: linear-gradient(#0a192f, #00634a, #0a192f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    text-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+li, p, a {
+    font-family: Arial, sans-serif;
+    color: #ccd6f6;
+    text-decoration: none;
+    font: 20px;
+    text-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #64ffda;
+}
+
+.container {
+    text-align: center;
+}

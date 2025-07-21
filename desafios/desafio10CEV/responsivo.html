@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /*Responsividade em todos os despositivos*/
+            min-width: 280px; /*Faz com que conteudo se ajuste perfeitamente*/
+            max-width: 800px; /*Faz com que conteudo se ajuste perfeitamente*/
+            margin: auto; /*centraliza conteudo*/
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima doloribus quas, deserunt dolorum non! Ratione neque nostrum tenetur maxime, eveniet ab aspernatur fuga officiis vel, ullam aut perferendis quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo, libero quo commodi veniam blanditiis sapiente? Praesentium maxime fugiat magnam dolores amet incidunt assumenda, cupiditate laboriosam, nam blanditiis hic voluptas? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa eveniet provident excepturi harum. Pariatur temporibus provident debitis totam amet consequatur possimus corrupti excepturi vero id libero, delectus facilis rem!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima doloribus quas, deserunt dolorum non! Ratione neque nostrum tenetur maxime, eveniet ab aspernatur fuga officiis vel, ullam aut perferendis quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo, libero quo commodi veniam blanditiis sapiente? Praesentium maxime fugiat magnam dolores amet incidunt assumenda, cupiditate laboriosam, nam blanditiis hic voluptas? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa eveniet provident excepturi harum. Pariatur temporibus provident debitis totam amet consequatur possimus corrupti excepturi vero id libero, delectus facilis rem!</p>
+    </main>
+</body>
+</html>

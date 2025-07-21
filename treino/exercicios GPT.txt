@@ -1,0 +1,34 @@
+Você está no nível iniciante/intermediário de HTML. Já domina listas, estrutura e semântica básica. Está pronto para:
+
+Iniciar o uso de CSS externo.
+
+Aprender tags semânticas como <header>, <nav>, <main>, <section>, <footer>.
+
+Explorar links, imagens e tabelas em HTML.
+
+Trabalhar com formulários simples.
+    Exercícios para seu nível:
+HTML
+Crie uma página de currículo:
+Use <h1> a <h3>, <p>, listas e <hr>.
+Crie seções para: Dados pessoais, Formação, Experiência e Habilidades.
+
+Crie uma página com uma receita:
+Inclua lista de ingredientes (não ordenada), passos do preparo (ordenada), e uma breve introdução.
+Use imagem (<img>) e links (<a>).
+
+Recrie um menu de jogos como tabela:
+Adicione uma tabela com colunas: Nome, Plataforma, Gênero.
+
+CSS
+Quando começar com CSS, faça:
+Personalize o currículo com estilos:
+Use um arquivo CSS externo.
+Altere cores, fontes, margens, e bordas.
+
+Faça um layout simples:
+Use display: flex para criar um menu lateral com conteúdo ao lado.
+Experimente usar <header>, <main>, <footer>.
+
+Desafios visuais:
+Crie uma "caixinha" com borda arredondada, sombra e texto centralizado.

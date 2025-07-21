@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'game';
+    src: url('fontes/flastytrial.otf') format('opentype'), url('fontes/flastytrial.ttf') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.container {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'game';
+    text-shadow: 5px 5px 8px black;
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.login {
+    font-family: 'game';
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+    background-color:  rgba(255, 255, 255, 0.3);
+    opacity: 1;
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    padding: 10px;
+    background-color: rgba(80, 21, 119, 0.5);
+    opacity: 1;
+    border: 1px solid;
+    border-radius: 15px;
+    
+}

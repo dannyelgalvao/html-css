@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(black, red);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, p {
+    font-family: monospace;
+    color: red;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}

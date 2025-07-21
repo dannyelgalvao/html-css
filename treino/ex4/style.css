@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/background.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Varela Round';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:  #2c4674;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.container {
+    text-align: center;
+    color: #2c4674;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 50px; /* reduz o espaço abaixo */
+    margin-top: -200px; /* sobe o título */
+}
+
+.caixa-login {
+    background-color: rgba(255, 255, 255, 0.3); /* Fundo semitransparente */
+    opacity: 1; /* Transparência da caixa */
+    backdrop-filter: blur(5px); /* Desfoque no fundo (o valor 5px é um exemplo) */
+    padding: 30px; /*Tamanho da caixa*/
+    border-radius: 10px; /*Borda do quadrado*/
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /*Sombra da borda*/
+    width: 300px; /*Largura*/
+    display: flex; /*Alinha lado a lado os itens*/
+    flex-direction: column; /*Coloca em coluna*/
+    gap: 15px; /*Altura do quadrado*/
+    text-align: center; /*Nome 'Login' centralizado*/
+    color: #3e609e;
+}
+
+.caixa-login input { /*inputs de login*/
+    padding: 10px; /*Tamanho*/
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    border: 1px solid #ccc; /*Grossura da borda*/
+    border-radius: 30px; /*Arrodendamento das bordas*/
+    font-family: 'Varela Round';
+}
+
+.caixa-login button {
+    padding: 10px;
+    background-color: #3e609e;
+    color: white;
+    border: none; /*Sem borda*/
+    border-radius: 30px;
+    width: 300px;
+    cursor: pointer; /*Muda o cursor para clique*/
+    font-family: 'Varela Round';
+}
+
+.caixa-login button:hover {
+    background-color: #18263f;
+}
+
+.telaperfil {
+    text-align: justify;
+    background-color: (255, 255, 255, 0.3);
+    padding: 30px;
+}
