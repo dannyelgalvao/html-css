@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - Background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+            /*No shorthand ainda não aceita o [size]*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +37,11 @@
     <main>
         <h1>Teste de imagem de fundo.</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti error quisquam, distinctio saepe ratione harum? Officiis, dolores nostrum dolorem voluptas earum officia atque? Vel iusto doloremque sed sapiente aspernatur aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, modi? Saepe velit alias at pariatur repellendus nam odio ducimus sequi, consectetur eveniet quisquam reprehenderit cupiditate esse omnis veniam. Tempora, nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illo vitae distinctio sit rem expedita accusamus quam corporis modi, ea voluptatibus! Sed veritatis laborum voluptatem officia temporibus quam nihil fuga?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti error quisquam, distinctio saepe ratione harum? Officiis, dolores nostrum dolorem voluptas earum officia atque? Vel iusto doloremque sed sapiente aspernatur aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, modi? Saepe velit alias at pariatur repellendus nam odio ducimus sequi, consectetur eveniet quisquam reprehenderit cupiditate esse omnis veniam. Tempora, nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illo vitae distinctio sit rem expedita accusamus quam corporis modi, ea voluptatibus! Sed veritatis laborum voluptatem officia temporibus quam nihil fuga?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti error quisquam, distinctio saepe ratione harum? Officiis, dolores nostrum dolorem voluptas earum officia atque? Vel iusto doloremque sed sapiente aspernatur aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, modi? Saepe velit alias at pariatur repellendus nam odio ducimus sequi, consectetur eveniet quisquam reprehenderit cupiditate esse omnis veniam. Tempora, nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illo vitae distinctio sit rem expedita accusamus quam corporis modi, ea voluptatibus! Sed veritatis laborum voluptatem officia temporibus quam nihil fuga?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti error quisquam, distinctio saepe ratione harum? Officiis, dolores nostrum dolorem voluptas earum officia atque? Vel iusto doloremque sed sapiente aspernatur aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, modi? Saepe velit alias at pariatur repellendus nam odio ducimus sequi, consectetur eveniet quisquam reprehenderit cupiditate esse omnis veniam. Tempora, nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illo vitae distinctio sit rem expedita accusamus quam corporis modi, ea voluptatibus! Sed veritatis laborum voluptatem officia temporibus quam nihil fuga?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti error quisquam, distinctio saepe ratione harum? Officiis, dolores nostrum dolorem voluptas earum officia atque? Vel iusto doloremque sed sapiente aspernatur aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, modi? Saepe velit alias at pariatur repellendus nam odio ducimus sequi, consectetur eveniet quisquam reprehenderit cupiditate esse omnis veniam. Tempora, nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam illo vitae distinctio sit rem expedita accusamus quam corporis modi, ea voluptatibus! Sed veritatis laborum voluptatem officia temporibus quam nihil fuga?</p>
+        
     </main>
 </body>
 </html>
