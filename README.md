@@ -8,5 +8,3 @@ Este repositório contém todos os **exercícios** e **desafios** que desenvolvi
 📁 Organização:
 - Cada pasta representa uma aula ou desafio específico.
 - Os códigos estão comentados para facilitar o entendimento.
-
-🚀 Bora evoluir na programação!
