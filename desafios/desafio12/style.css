@@ -24,19 +24,25 @@ body {
 }
 
 header {
+    position: relative;
+    height: 200px;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     padding-bottom: 50px;
-    display: block;
 }
 
 header > h1 {
+    background-color: blue;
+    position: absolute;
+    height: 200px;
+    width: 400px;
     font-size: 8vh;
     font-weight: 80px;
     padding-top: 50px;
     font-family: 'Passion One';
+ 
 }
 
 a {
